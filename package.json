@@ -1,17 +1,11 @@
 {
   "name": "testingpushnotification",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "server.js",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
@@ -19,11 +13,5 @@
     "express": "^5.1.0",
     "mongodb": "^6.18.0",
     "mongoose": "^8.17.2"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.3",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.9.2"
   }
 }
